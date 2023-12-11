@@ -27,7 +27,6 @@ public class BuscaNome {
             System.out.println("NÃO ACHEI");
         }
 
-        // Fecha o scanner
         scanner.close();
     }
 }
