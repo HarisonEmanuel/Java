@@ -1,38 +1,41 @@
 import java.util.Scanner;
 
-public class BuscaNome {
+public class BuscaNomeArray {
     public static void main(String[] args) {
-        // Inicializando um array para armazenar 10 nomes
-        String[] nomes = new String[10];
         Scanner scanner = new Scanner(System.in);
-
-        // Preenchendo o array com nomes fornecidos pelo usuário
+        
+        // Inicializa um array de strings para armazenar os nomes
+        String[] nomes = new String[10];
+        
+        // Solicita ao usuário inserir 10 nomes
         for (int i = 0; i < 10; i++) {
-            System.out.print("Digite o nome #" + (i + 1) + ": ");
+            System.out.print("Insira o nome #" + (i + 1) + ": ");
             nomes[i] = scanner.nextLine();
         }
-
-        // Solicitando ao usuário um nome para buscar
+        
+        // Solicita ao usuário digitar um nome para buscar
         System.out.print("Digite um nome para buscar: ");
         String nomeBusca = scanner.nextLine();
-
-        // Verificando se o nome fornecido está no array
+        
+        // Converte ambos os nomes para minúsculas para ignorar maiúsculas/minúsculas
+        nomeBusca = nomeBusca.toLowerCase();
+        
+        // Verifica se o nome está presente no array usando um loop for-each
         boolean encontrado = false;
         for (String nome : nomes) {
-            if (nome.equalsIgnoreCase(nomeBusca)) {
+            if (nome.toLowerCase().equals(nomeBusca)) {
                 encontrado = true;
                 break;
             }
         }
-
-        // Exibindo o resultado da busca
+        
+        // Exibe o resultado
         if (encontrado) {
             System.out.println("ACHEI");
         } else {
             System.out.println("NÃO ACHEI");
         }
-
-        // Fechando o scanner para evitar vazamento de recursos
+        
         scanner.close();
     }
 }
