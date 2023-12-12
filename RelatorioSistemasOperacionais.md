@@ -1,7 +1,13 @@
+# Relatório Descritivo: Instalação e Configuração do XenServer
+
+## Disciplina: SO   PROF: Raimundo N. Nunes.   Data:11/12/23
+
+### Discentes: Anderson, Hárison, Natan e Raquel
+
 **Relatório Descritivo: Instalação e Configuração do XenServer**
 
 **1. Introdução:**
-A atividade consistiu na instalação e configuração do XenServer em um computador, com a subsequente formatação da máquina e a criação de uma máquina virtual (VM) com a instalação de um sistema operacional (S.O) no XenServer.
+A atividade consistiu na instalação e configuração do XenServer em um computador, com a subsequente formatação da máquina e a criação de uma máquina virtual com a instalação de um sistema operacional no XenServer.
 
 **2. Finalidade:**
 A finalidade principal do projeto foi implementar uma infraestrutura de virtualização utilizando o XenServer. Isso possibilita a criação de ambientes isolados, aumentando a flexibilidade, escalabilidade e gerenciamento eficiente dos recursos de hardware.
