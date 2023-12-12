@@ -1,8 +1,6 @@
 # Relatório Descritivo: Instalação e Configuração do XenServer
 
-   |-------------|--------------------------|----------------
-   ----------------------------------------------------------
-## |Disciplina:SO|   PROF:Raimundo N. Nunes.|   Data:11/12/23
+## Disciplina:SO   PROF:Raimundo N. Nunes.   Data:11/12/23
 
 ### Discentes:Anderson, Hárison, Natan e Raquel
 
